@@ -1,0 +1,4 @@
+type: object
+nullable: false
+contentType:
+  $ref: "../index.yaml#/components/schemas/contentType"
