@@ -4,8 +4,9 @@ model :
 { 
 
 }
+// Note - Attempt to resolve modelMap later, may be kept blank
 modelMap : 
-{ < * >: 
+{ 
     {
 
     } 
