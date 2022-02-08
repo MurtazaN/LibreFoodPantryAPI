@@ -1,0 +1,8 @@
+description: Storage tips
+example: sealed
+maxLength: 128
+minLength: 1
+nullable: true
+# Must contain at least one non-whitespace character.
+pattern: \S+
+type: string

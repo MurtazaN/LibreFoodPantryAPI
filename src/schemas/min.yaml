@@ -1,0 +1,7 @@
+description: Minimum time for shelf life .
+example: 0
+nullable: false
+# Must contain at least one non-whitespace character.
+pattern: ^-?\d*(\.\d+)?$ #accepts decimal too
+format: int32
+type: integer

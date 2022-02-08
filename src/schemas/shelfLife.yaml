@@ -1,0 +1,20 @@
+description: Class representing a shelf life found in product data
+example: { "min": "0",
+  "max": "6", 
+  "metric": "months",
+  "tips": "sealed" }
+type: object
+properties:
+  min:
+    $ref: "../index.yaml#/components/schemas/min"
+  max:
+    $ref: "../index.yaml#/components/schemas/max"
+  metric:
+    $ref: "../index.yaml#/components/schemas/metric"
+  tips:
+    $ref: "../index.yaml#/components/schemas/tips"
+required:
+  - min
+  - max
+  - metric
+  - tips
