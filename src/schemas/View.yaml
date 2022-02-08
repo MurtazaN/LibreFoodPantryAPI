@@ -1,7 +1,0 @@
-description: Display type of content.
-type: object
-properties:
-  contentType:
-    $ref: "../index.yaml#/components/schemas/contentType"
-required:
-  - contentType
