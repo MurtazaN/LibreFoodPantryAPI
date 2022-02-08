@@ -1,0 +1,7 @@
+description: Unique identifier for the cooking tip
+example: 8
+nullable: false 
+pattern: \d+
+maxLength: 128
+format: int32
+type: integer

@@ -1,0 +1,30 @@
+description: Class representing a cooking method tracked by the application
+example: {
+  "id": "8",
+  "tips": "Braising is roasting or simmering less-tender meats with a small amount of liquid in a tightly covered pan.",
+  "safeMinTemp": "145",
+  "restTime": "3",
+  "restTimeMetric": "minutes",
+  "productID": "39"
+}
+type: object
+properties:
+  id:
+    $ref: "../index.yaml#/components/schemas/tipID"
+  tips:
+    $ref: "../index.yaml#/components/schemas/tips"
+  safeMinTemp:
+    $ref: "../index.yaml#/components/schemas/safeMinTemp"
+  restTime:
+    $ref: "../index.yaml#/components/schemas/restTime"
+  restTimeMetric:
+    $ref: "../index.yaml#/components/schemas/resttimeMetric"
+  productID:
+    $ref: "../index.yaml#/components/schemas/productTipID"
+required:
+  - id
+  - tips
+  - safeMinTemp
+  - restTime
+  - restTimeMetric
+  - productID
