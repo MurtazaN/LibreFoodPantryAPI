@@ -1,0 +1,7 @@
+description: Metric for rest time
+example: minutes
+maxLength: 128
+minLength: 1
+nullable: false
+pattern: (?:minutes) #the only metric for rest time is minutes
+type: string
