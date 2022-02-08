@@ -1,0 +1,9 @@
+description : List all categories
+responses:
+  "200":
+    description: All categories were found and listed
+    content:
+      application/json:
+        schema:
+          $ref: "../index.yaml#/components/schemas/category.yaml"
+

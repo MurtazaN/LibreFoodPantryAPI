@@ -1,7 +1,0 @@
-description: ID for product associated with cooking tip
-example: 39
-nullable: false 
-pattern: \d+
-maxLength: 128
-format: int32
-type: integer

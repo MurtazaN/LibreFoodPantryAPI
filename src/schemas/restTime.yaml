@@ -1,6 +1,0 @@
-description: Rest time
-example: 145
-nullable: false 
-pattern: \d+
-format: int32
-type: integer
