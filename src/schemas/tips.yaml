@@ -1,0 +1,7 @@
+description: Tips for cooking
+example: Cook until yolk and white are firm.
+maxLength: 256
+minLength: 1
+nullable: false 
+pattern: \S+
+type: string

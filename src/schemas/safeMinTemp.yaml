@@ -1,0 +1,7 @@
+description: Safe minimum temperature in Fahrenheit
+example: 145
+nullable: false 
+pattern: \d+
+maxLength: 128
+format: int32
+type: integer
