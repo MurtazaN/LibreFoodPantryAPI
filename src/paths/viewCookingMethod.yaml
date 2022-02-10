@@ -1,0 +1,14 @@
+description: View Cooking Method
+responses:
+  "200":
+    description: Cooking Method found and returned
+    content:
+      application/json:
+        schema:
+          $ref: "../index.yaml#/components/schemas/cookingMethod" #not sure if schema exists in another branch?
+  "400":
+    $ref: "../index.yaml#/components/responses/BadRequest"
+  "404":
+    $ref: "../index.yaml#/components/responses/NotFound"
+  "500":
+    $ref: "../index.yaml#/components/responses/ServerError"

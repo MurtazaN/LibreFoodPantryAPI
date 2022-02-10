@@ -1,0 +1,8 @@
+description: List Cooking Methods
+responses:
+  "200":
+    description: OK
+    content:
+      application/json:
+        schema:
+          $ref: "../index.yaml#/components/schemas/cookingMethodsArray" #schema does not exist yet
