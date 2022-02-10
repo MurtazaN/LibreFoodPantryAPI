@@ -1,0 +1,6 @@
+description: Unique identifier for the product .
+example: 1
+nullable: false
+pattern: ^-?\d*(\.\d+)?$
+format: int32
+type: integer

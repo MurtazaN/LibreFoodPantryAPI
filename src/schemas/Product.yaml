@@ -1,0 +1,49 @@
+description: 	Class representing a product tracked by the application
+example: { "productID": "1",
+  "categoryID": "1", 
+  "productName": "Cheese",
+  "subtitle": "Swiss",
+  "keywords": "Cheese",
+  "dop_freezerLife": "0,6,months,sealed",
+  "dop_pantryLife": "0,6,months,sealed",
+  "dop_refrigeratorLife": "0,6,months,sealed",
+  "pantryLife": "0,6,months,sealed",
+  "pantryAfterOpeningLife": "0,6,months,sealed",
+  "refrigeratorLife": "0,6,months,sealed",
+  "refrigerateAfterOpeningLife": "0,6,months,sealed",
+  "refrigerateAfterThawingLife": "0,6,months,sealed",
+  "freezerLife": "0,6,months,sealed" }
+type: object
+properties:
+  dop_freezerLife:
+    $ref: "../index.yaml#/components/schemas/dop_freezerLife"
+  dop_pantryLife:
+    $ref: "../index.yaml#/components/schemas/dop_pantryLife"
+  dop_refrigeratorLife:
+    $ref: "../index.yaml#/components/schemas/dop_refrigeratorLife"
+  freezerLife:
+    $ref: "../index.yaml#/components/schemas/freezerLife"
+  keywords:
+    $ref: "../index.yaml#/components/schemas/keywords"
+  pantryAfterOpeningLife:
+    $ref: "../index.yaml#/components/schemas/pantryAfterOpeningLife"
+  pantryLife:
+    $ref: "../index.yaml#/components/schemas/pantryLife"
+  productID:
+    $ref: "../index.yaml#/components/schemas/productID"
+  productName:
+    $ref: "../index.yaml#/components/schemas/productName"
+  refrigeratorAfterOpeningLife:
+    $ref: "../index.yaml#/components/schemas/refrigeratorAfterOpeningLife"
+  refrigeratorAfterThawingLife:
+    $ref: "../index.yaml#/components/schemas/refrigeratorAfterThawingLife"
+  refrigeratorLife:
+    $ref: "../index.yaml#/components/schemas/refrigeratorLife"
+  subtitle:
+    $ref: "../index.yaml#/components/schemas/subtitle"
+  categoryID:
+    $ref: "../index.yaml#/components/schemas/categoryId"
+required:
+  - productID
+  - productName
+  - categoryId
