@@ -1,0 +1,14 @@
+description: View Cooking Tips
+responses:
+  "200":
+    description: Cooking Tip found and returned
+    content:
+      application/json:
+        schema:
+          $ref: "../index.yaml#/components/schemas/cookingTip"
+  "400":
+    $ref: "../index.yaml#/components/responses/BadRequest"
+  "404":
+    $ref: "../index.yaml#/components/responses/NotFound"
+  "500":
+    $ref: "../index.yaml#/components/responses/ServerError"
