@@ -1,0 +1,7 @@
+description: Name of the subcategory
+example: Fresh
+maxLength: 256
+minLength: 1
+nullable: false 
+pattern: \S+
+type: string

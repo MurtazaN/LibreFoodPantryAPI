@@ -1,0 +1,7 @@
+description: Unique identifier for the category
+example: 1
+nullable: false 
+pattern: \d+
+maxLength: 128
+format: int32
+type: integer
