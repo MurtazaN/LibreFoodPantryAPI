@@ -1,0 +1,13 @@
+description: Class representing a category tracked by the application
+example: { "categoryId": "1", "categoryName": "Meat", "subcategoryName": "Fresh" }
+type: object
+properties:
+  categoryId:
+    $ref: "../index.yaml#/components/schemas/categoryId"
+  categoryName:
+    $ref: "../index.yaml#/components/schemas/categoryName"
+  subcategoryName:
+    $ref: "../index.yaml#/components/schemas/subcategoryName"
+required:
+  - categoryId
+  - categoryName
