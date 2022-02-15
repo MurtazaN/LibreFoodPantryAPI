@@ -1,0 +1,6 @@
+description: Minimum size measurement
+example: 1
+nullable: false
+pattern: ^-?\d*(\.\d+)?$
+format: double
+type: number

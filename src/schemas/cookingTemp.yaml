@@ -1,0 +1,8 @@
+description: cooking Temperature.
+example: 450
+maxLength: 128
+minLength: 1
+nullable: false
+# Must contain at least one non-whitespace character.
+pattern: \S+
+type: string

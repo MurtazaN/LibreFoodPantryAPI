@@ -1,0 +1,6 @@
+description: Minimum cooking time
+example: 30
+nullable: false
+pattern: ^-?\d*(\.\d+)?$
+format: double
+type: number

@@ -1,0 +1,6 @@
+description: Miximum size measurement
+example: 2
+nullable: false
+pattern: ^-?\d*(\.\d+)?$
+format: double
+type: number

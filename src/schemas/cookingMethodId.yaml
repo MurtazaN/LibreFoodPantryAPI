@@ -1,0 +1,6 @@
+description: Unique identifier for the cooking method
+example: 1
+nullable: false
+pattern: \d+
+format: int32
+type: integer
