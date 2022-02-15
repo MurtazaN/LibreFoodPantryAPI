@@ -1,0 +1,39 @@
+description: 	Class representing a cooking method tracked by the application
+example: { "productID": "1",
+  "cookingMethodID": "1", 
+  "methodToCook": "Oven",
+  "measureFrom": "1",
+  "measureTo": "2",
+  "sizeMetric": "pounds",
+  "cookingTemp": "450",
+  "timingFrom": "30",
+  "timingTo": "45",
+  "timingMetric": "minutes",
+  "timingPer": "pound" }
+type: object
+properties:
+  dop_freezerLife:
+    $ref: "../index.yaml#/components/schemas/productID"
+  dop_pantryLife:
+    $ref: "../index.yaml#/components/schemas/cookingMethodID"
+  dop_refrigeratorLife:
+    $ref: "../index.yaml#/components/schemas/methodToCook"
+  freezerLife:
+    $ref: "../index.yaml#/components/schemas/measureFrom"
+  keywords:
+    $ref: "../index.yaml#/components/schemas/measureTo"
+  pantryAfterOpeningLife:
+    $ref: "../index.yaml#/components/schemas/sizeMetric"
+  pantryLife:
+    $ref: "../index.yaml#/components/schemas/cookingTemp"
+  productID:
+    $ref: "../index.yaml#/components/schemas/timingFrom"
+  productName:
+    $ref: "../index.yaml#/components/schemas/timingTo"
+  refrigeratorAfterOpeningLife:
+    $ref: "../index.yaml#/components/schemas/timingMetric"
+  refrigeratorAfterThawingLife:
+    $ref: "../index.yaml#/components/schemas/timingPer"
+required:
+  - cookingMethodId
+  - methodToCook
