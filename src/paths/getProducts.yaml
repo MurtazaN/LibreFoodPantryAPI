@@ -1,0 +1,9 @@
+description : List all Products
+responses:
+  "200":
+    description: All Products were found and listed
+    content:
+      application/json:
+        schema:
+          $ref: "../index.yaml#/components/schemas/Product.yaml"
+
