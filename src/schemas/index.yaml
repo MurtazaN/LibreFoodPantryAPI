@@ -1,0 +1,97 @@
+Category:
+  $ref: ./category.yaml
+categoryId:
+  $ref: ./categoryId.yaml
+categoryName:
+  $ref: ./categoryName.yaml
+contentType:
+  $ref: ./contentType.yaml
+CookingMethod:
+  $ref: ./CookingMethod.yaml
+cookingMethodId:
+  $ref: ./cookingMethodId.yaml
+cookingTemp:
+  $ref: ./cookingTemp.yaml
+cookingTip:
+  $ref: ./cookingTip.yaml
+cookingTipContent:
+  $ref: ./cookingTipContent.yaml
+cookingTipID:
+  $ref: ./cookingTipID.yaml
+dop_freezerLife:
+  $ref: ./dop_freezerLife.yaml
+dop_pantryLife:
+  $ref: ./dop_pantryLife.yaml
+dop_refrigeratorLife:
+  $ref: ./dop_refrigeratorLife.yaml
+EvoError:
+  $ref: ./EvoError.yaml
+freezerLife:
+  $ref: ./freezerLife.yaml
+keywords:
+  $ref: ./keywords.yaml
+max:
+  $ref: ./max.yaml
+measureFrom:
+  $ref: ./measureFrom.yaml
+measureTo:
+  $ref: ./measureTo.yaml
+methodToCook:
+  $ref: ./methodToCook.yaml
+metric:
+  $ref: ./metric.yaml
+min:
+  $ref: ./min.yaml
+modelandview:
+  $ref: ./modelandview.yaml
+pantryAfterOpening:
+  $ref: ./pantryAfterOpening.yaml
+pantryLife:
+  $ref: ./pantryLife.yaml
+Product:
+  $ref: ./Product.yaml
+productID:
+  $ref: ./productID.yaml
+productName:
+  $ref: ./productName.yaml
+productTipID:
+  $ref: ./dop_freezerLife.yaml
+refrigeratorAfterOpeningLife:
+  $ref: ./refrigeratorAfterOpeningLife.yaml
+refrigeratorAfterThawingLife:
+  $ref: ./refrigeratorAfterThawingLife.yaml
+refrigeratorLife:
+  $ref: ./refrigeratorLife.yaml
+restTime:
+  $ref: ./restTime.yaml
+restTimeMetric:
+  $ref: ./restTimeMetric.yaml
+safeMinTemp:
+  $ref: ./safeMinTemp.yaml
+shelfLife:
+  $ref: ./shelfLife.yaml
+sizeMetric:
+  $ref: ./sizeMetric.yaml
+storageTips:
+  $ref: ./storageTips.yaml
+subcategoryName:
+  $ref: ./subcategoryName.yaml
+subtitle:
+  $ref: ./subtitle.yaml
+timingFrom:
+  $ref: ./timingFrom.yaml
+timingMetric:
+  $ref: ./timingMetric.yaml
+timingPer:
+  $ref: ./timingPer.yaml
+timingTo:
+  $ref: ./timingTo.yaml
+View:
+  $ref: ./View.yaml
+
+
+
+
+
+
+
