@@ -1,0 +1,11 @@
+openapi: 3.0.3
+info:
+  title: FoodKeeper
+  version: 0.1.0
+paths:
+  $ref: "./paths/index.yaml"
+components:
+  responses:
+    $ref: "./responses/index.yaml"
+  schemas:
+    $ref: "./schemas/index.yaml"
