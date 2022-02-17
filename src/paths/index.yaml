@@ -1,0 +1,101 @@
+/category:
+  parameters:
+    - name: name
+      in: query
+      schema:
+        $ref: "../index.yaml#/components/schemas/category.yaml"
+      required: true
+      description: Get all categories.
+  get:
+    $ref: "./getAllCategories.yaml"
+/category/:id:
+  parameters:
+    - name: id
+      in: path
+      required: true
+      schema:
+        $ref: "../index.yaml#/components/schemas/categoryId.yaml"
+      description : Category with ID
+  get:
+    $ref: "./getCategoryWithID.yaml"
+/product/:
+  parameters:
+    - name: name
+      in: query
+      schema:
+        $ref: "../index.yaml#/components/schemas/product.yaml"
+      required: true
+      description: Get all products.
+  get:
+    $ref: "./getAllProducts.yaml"
+/product/:id:
+  parameters:
+    - name: id
+      in: path
+      schema:
+        $ref: "../index.yaml#/components/schemas/productID.yaml"
+      required: true
+      description: Find product by ID.
+  get:
+    $ref: "./getProductsID.yaml"
+/product/:id/name:
+  parameters:
+    - name: name
+      in: path
+      schema:
+        $ref: "../index.yaml#/components/schemas/productName.yaml"
+      required: true
+      description: Get product name.
+  get:
+    $ref: "./getProductName.yaml"
+/product/category/:categoryId:
+  parameters:
+    - name: name
+      in: query
+      schema:
+        $ref: "../index.yaml#/components/schemas/categoryId.yaml"
+      required: true
+      description: All products with category ID.  
+  get:
+    $ref: "./getProductCategoryID.yaml"
+/cookingMethods:
+  parameters:
+    - name: name
+      in: query
+      schema:
+        $ref: "../index.yaml#/components/schemas/cookingMethod.yaml"
+      required: true
+      description: Cooking methods.  
+  put:
+    $ref: "./listCookingMethods.yaml" 
+/CookingMethods/:id:
+  parameters:
+    - name: id
+      in: path
+      schema:
+        $ref: "../index.yaml#/components/schemas/cookingMethodId.yaml"
+      required: true
+      description: Cooking method with ID.  
+  put:
+    $ref: "./viewCookingMethod.yaml"
+/cookingTips:
+  parameters:
+    - name: name
+      in: query
+      schema:
+        $ref: "../index.yaml#/components/schemas/cookingTip.yaml"
+      required: true
+      description: Cooking tips.  
+  put:
+    $ref: "./listCookingTips.yaml"   
+/CookingTips/:id:
+  parameters:
+    - name: id
+      in: path
+      required: true
+      schema:
+        $ref: "../index.yaml#/components/schemas/cookingTipID.yaml"
+      description: Cooking tip with ID. 
+  get:
+    $ref: "./viewCookingTip.yaml"
+ 
