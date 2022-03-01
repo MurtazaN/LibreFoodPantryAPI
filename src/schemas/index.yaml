@@ -45,7 +45,7 @@ min:
 modelandview:
   $ref: ./modelandview.yaml
 pantryAfterOpening:
-  $ref: ./pantryAfterOpening.yaml
+  $ref: ./pantryAfterOpeningLife.yaml
 pantryLife:
   $ref: ./pantryLife.yaml
 Product:
