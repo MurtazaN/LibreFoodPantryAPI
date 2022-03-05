@@ -1,11 +1,11 @@
-description: Find Product and returned
+description: Find product and returned
 responses:
   "200":
     description: Item found and returned
     content:
       application/json:
         schema:
-          $ref: "../index.yaml#/components/schemas/Product.yaml"
+          $ref: "../index.yaml#/components/schemas/product.yaml"
   "400":
     $ref: "../index.yaml#/components/responses/BadRequest"
   "404":

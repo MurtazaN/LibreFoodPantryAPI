@@ -68,7 +68,7 @@
       description: Cooking methods.  
   get:
     $ref: "./listCookingMethods.yaml" 
-/CookingMethods/:id:
+/cookingMethods/:id:
   parameters:
     - name: id
       in: path
@@ -88,7 +88,7 @@
       description: Cooking tips.  
   get:
     $ref: "./listCookingTips.yaml"   
-/CookingTips/:id:
+/cookingTips/:id:
   parameters:
     - name: id
       in: path
