@@ -7,7 +7,7 @@ categoryName:
 contentType:
   $ref: ./contentType.yaml
 CookingMethod:
-  $ref: ./CookingMethod.yaml
+  $ref: ./cookingMethod.yaml
 cookingMethodId:
   $ref: ./cookingMethodId.yaml
 cookingTemp:
@@ -45,11 +45,11 @@ min:
 modelandview:
   $ref: ./modelandview.yaml
 pantryAfterOpening:
-  $ref: ./pantryAfterOpening.yaml
+  $ref: ./pantryAfterOpeningLife.yaml
 pantryLife:
   $ref: ./pantryLife.yaml
-Product:
-  $ref: ./Product.yaml
+product:
+  $ref: ./product.yaml
 productID:
   $ref: ./productID.yaml
 productName:
@@ -86,8 +86,8 @@ timingPer:
   $ref: ./timingPer.yaml
 timingTo:
   $ref: ./timingTo.yaml
-View:
-  $ref: ./View.yaml
+view:
+  $ref: ./view.yaml
 
 
 
