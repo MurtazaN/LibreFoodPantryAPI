@@ -1,0 +1,10 @@
+description: Gets current opperating version of the API
+operationId: getAPIVersion
+x-eov-operation-handler: endpoints
+responses:
+  "200":
+    description: OK
+    content:
+      application/json:
+        schema:
+          $ref: '../index.yaml#/components/schemas/API'
