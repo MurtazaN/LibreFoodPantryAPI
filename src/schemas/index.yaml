@@ -1,4 +1,4 @@
-Category:
+category:
   $ref: ./category.yaml
 categoryId:
   $ref: ./categoryId.yaml
@@ -6,10 +6,12 @@ categoryName:
   $ref: ./categoryName.yaml
 contentType:
   $ref: ./contentType.yaml
-CookingMethod:
+cookingMethod:
   $ref: ./cookingMethod.yaml
 cookingMethodId:
   $ref: ./cookingMethodId.yaml
+cookingMethodArray:
+  $ref: ./cookingMethodArray.yaml
 cookingTemp:
   $ref: ./cookingTemp.yaml
 cookingTip:
@@ -18,6 +20,8 @@ cookingTipContent:
   $ref: ./cookingTipContent.yaml
 cookingTipID:
   $ref: ./cookingTipID.yaml
+cookingTipArray:
+  $ref: ./cookingTipArray.yaml
 dop_freezerLife:
   $ref: ./dop_freezerLife.yaml
 dop_pantryLife:
@@ -42,9 +46,7 @@ metric:
   $ref: ./metric.yaml
 min:
   $ref: ./min.yaml
-modelandview:
-  $ref: ./modelandview.yaml
-pantryAfterOpening:
+pantryAfterOpeningLife:
   $ref: ./pantryAfterOpeningLife.yaml
 pantryLife:
   $ref: ./pantryLife.yaml

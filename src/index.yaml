@@ -3,7 +3,7 @@ info:
   title: FoodKeeper
   version: 0.1.0
 paths:
-  $ref: "./paths/index.yaml"
+    $ref: "./paths/index.yaml"
 components:
   responses:
     $ref: "./responses/index.yaml"

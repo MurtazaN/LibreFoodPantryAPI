@@ -3,7 +3,7 @@
     - name: name
       in: query
       schema:
-        $ref: "../index.yaml#/components/schemas/category.yaml"
+        $ref: "../index.yaml#/components/schemas/category"
       required: true
       description: Get all categories.
   get:
@@ -14,7 +14,7 @@
       in: path
       required: true
       schema:
-        $ref: "../index.yaml#/components/schemas/categoryId.yaml"
+        $ref: "../index.yaml#/components/schemas/categoryId"
       description : Category with ID
   get:
     $ref: "./getCategoryWithID.yaml"
@@ -23,7 +23,7 @@
     - name: name
       in: query
       schema:
-        $ref: "../index.yaml#/components/schemas/product.yaml"
+        $ref: "../index.yaml#/components/schemas/product"
       required: true
       description: Get all products.
   get:
@@ -33,7 +33,7 @@
     - name: id
       in: path
       schema:
-        $ref: "../index.yaml#/components/schemas/productID.yaml"
+        $ref: "../index.yaml#/components/schemas/productID"
       required: true
       description: Find product by ID.
   get:
@@ -43,7 +43,7 @@
     - name: name
       in: path
       schema:
-        $ref: "../index.yaml#/components/schemas/productName.yaml"
+        $ref: "../index.yaml#/components/schemas/productName"
       required: true
       description: Get product name.
   get:
@@ -53,7 +53,7 @@
     - name: name
       in: query
       schema:
-        $ref: "../index.yaml#/components/schemas/categoryId.yaml"
+        $ref: "../index.yaml#/components/schemas/categoryId"
       required: true
       description: All products with category ID.  
   get:
@@ -63,7 +63,7 @@
     - name: name
       in: query
       schema:
-        $ref: "../index.yaml#/components/schemas/cookingMethod.yaml"
+        $ref: "../index.yaml#/components/schemas/cookingMethod"
       required: true
       description: Cooking methods.  
   get:
@@ -73,7 +73,7 @@
     - name: id
       in: path
       schema:
-        $ref: "../index.yaml#/components/schemas/cookingMethodId.yaml"
+        $ref: "../index.yaml#/components/schemas/cookingMethodId"
       required: true
       description: Cooking method with ID.  
   get:
@@ -83,7 +83,7 @@
     - name: name
       in: query
       schema:
-        $ref: "../index.yaml#/components/schemas/cookingTip.yaml"
+        $ref: "../index.yaml#/components/schemas/cookingTip"
       required: true
       description: Cooking tips.  
   get:
@@ -94,7 +94,7 @@
       in: path
       required: true
       schema:
-        $ref: "../index.yaml#/components/schemas/cookingTipID.yaml"
+        $ref: "../index.yaml#/components/schemas/cookingTipID"
       description: Cooking tip with ID. 
   get:
     $ref: "./viewCookingTip.yaml"
