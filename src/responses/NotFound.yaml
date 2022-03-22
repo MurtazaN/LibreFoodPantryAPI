@@ -2,4 +2,4 @@ description: The specified resource was not found
 content:
   application/json:
     schema:
-      $ref: "../index.yaml#/components/schemas/EovError"
+      $ref: "../index.yaml#/components/schemas/EvoError"

@@ -2,4 +2,4 @@ description: There was an error in the server.
 content:
   application/json:
     schema:
-      $ref: "../index.yaml#/components/schemas/EovError"
+      $ref: "../index.yaml#/components/schemas/EvoError"

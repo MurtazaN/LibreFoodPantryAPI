@@ -5,7 +5,7 @@ responses:
     content:
       application/json:
         schema:
-          $ref: "../index.yaml#/components/schemas/product.yaml"
+          $ref: "../index.yaml#/components/schemas/product"
   "400":
     $ref: "../index.yaml#/components/responses/BadRequest"
   "404":

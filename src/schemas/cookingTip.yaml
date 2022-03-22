@@ -18,7 +18,7 @@ properties:
   restTime:
     $ref: "../index.yaml#/components/schemas/restTime"
   restTimeMetric:
-    $ref: "../index.yaml#/components/schemas/resttimeMetric"
+    $ref: "../index.yaml#/components/schemas/restTimeMetric"
   productID:
     $ref: "../index.yaml#/components/schemas/productTipID"
 required:

@@ -5,4 +5,4 @@ responses:
     content:
       application/json:
         schema:
-          $ref: "../index.yaml#/components/schemas/cookingMethodsArray" #schema does not exist yet
+          $ref: "../index.yaml#/components/schemas/cookingMethodArray" #schema does not exist yet

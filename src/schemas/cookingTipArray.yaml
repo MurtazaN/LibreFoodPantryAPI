@@ -1,4 +1,4 @@
 type: array
 nullable: false
 items:
-  $ref: "../index.yaml#/components/schemas/CookingTip"
+  $ref: "../index.yaml#/components/schemas/cookingTip"
