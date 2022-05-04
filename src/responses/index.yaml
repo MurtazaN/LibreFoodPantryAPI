@@ -4,3 +4,6 @@ NotFound:
   $ref: "./NotFound.yaml"
 ServerError:
   $ref: "./ServerError.yaml"
+Forbidden:
+  $ref: "./Forbidden.yaml"
+

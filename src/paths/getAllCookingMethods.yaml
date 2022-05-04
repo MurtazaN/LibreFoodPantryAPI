@@ -6,3 +6,5 @@ responses:
       application/json:
         schema:
           $ref: "../index.yaml#/components/schemas/cookingMethodArray" #schema does not exist yet
+  "403":
+    $ref: "../index.yaml#/components/responses/Forbidden"
