@@ -6,5 +6,6 @@ responses:
       application/json:
         schema:
           $ref: "../index.yaml#/components/schemas/category"
-
+  "403":
+    $ref: "../index.yaml#/components/responses/Forbidden"
 

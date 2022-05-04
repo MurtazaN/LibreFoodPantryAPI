@@ -1,0 +1,5 @@
+description: The sever refused to authorize request
+content:
+  application/json:
+    schema:
+      $ref: "../index.yaml#/components/schemas/EvoError"
